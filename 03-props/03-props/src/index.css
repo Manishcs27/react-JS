@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica', sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: black;
+}
+.parent{
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  /* align-items: center; */
+  /* height: 100vh; */
+  flex-wrap: wrap;
+}
+.card{
+  width: 300px;
+  border:1px solid white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #333;
+}
